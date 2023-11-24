@@ -1,18 +1,21 @@
 body {
+    background-image: url('https://static1.cbrimages.com/wordpress/wp-content/uploads/2022/11/Game-Awards-2022-logo.jpg'); /* Replace 'your_image_url.jpg' with your image URL */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     height: 100vh;
     margin: 0;
-    background: linear-gradient(to bottom, #3d3a3a, #444); /* Brighter black (#111) to a lighter gray (#444) */
   }
   
   .top-bar {
-    background-color: #000; /* Darkest black */
+    background-color: #000;
     text-align: center;
     color: white;
-    padding: 10px 0; /* Adjust vertical padding */
+    padding: 10px 0;
     width: 100%;
     position: fixed;
     top: 0;
@@ -28,26 +31,31 @@ body {
   }
   
   .info p {
-    font-size: 84px; /* Three times the original size */
+    font-size: 72px;
     font-weight: bold;
   }
   
   .above-rectangle {
     text-align: center;
-    margin-bottom: 10px; /* Adjust the space between the text and the custom rectangle */
+    margin-bottom: 10px;
   }
   
   .theater-text {
     color: white;
     font-weight: bold;
-    margin-bottom: 5px; /* Adjust the margin to bring it closer to the custom rectangle */
-    font-size: 24px; /* Adjust the font size to make it bigger */
+    margin-bottom: 5px;
+    font-size: 24px;
   }
   
-  img {
-    max-width: 300px; /* Adjust the maximum width of the image */
-    max-height: 300px; /* Adjust the maximum height of the image */
-    margin-left: 20px; /* Adjust the margin to control the space between text and image */
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-container img {
+    max-width: 300px;
+    max-height: 300px;
   }
   
   .bottom-section {
@@ -60,13 +68,9 @@ body {
   .custom-rectangle {
     background-color: black;
     color: white;
-    border-radius: 20px; /* Adjust to make the corners more or less curved */
-    padding: 20px;
+    border-radius: 15px;
+    padding: 15px;
     text-align: center;
-  }
-  
-  .custom-text {
-    font-weight: bold;
   }
   
   button {
@@ -83,7 +87,7 @@ body {
   }
   
   .aboutButton {
-    margin-left: 10px; /* Adjust this value to create space between buttons */
+    margin-left: 10px;
     background-color: black;
     color: white;
     border: 2px solid transparent;
