@@ -5,19 +5,19 @@ body {
     flex-direction: column;
     height: 100vh;
     margin: 0;
-    background: linear-gradient(to bottom, black, #333); /* Black to a slightly lighter shade of black */
+    background: linear-gradient(to bottom, #3d3a3a, #444); /* Brighter black (#111) to a lighter gray (#444) */
   }
   
   .top-bar {
-    background-color: rgba(0, 0, 0, 0.7); /* Black with 70% opacity */
+    background-color: #000; /* Darkest black */
     text-align: center;
     color: white;
     padding: 10px 0; /* Adjust vertical padding */
     width: 100%;
     position: fixed;
-    top: 0; /* Position the top bar at the top of the screen */
+    top: 0;
     left: 0;
-    z-index: 9999; /* Ensure it's at the top layer */
+    z-index: 9999;
   }
   
   .info {
@@ -28,7 +28,7 @@ body {
   }
   
   .info p {
-    font-size: 28px; /* Adjust the font size */
+    font-size: 84px; /* Three times the original size */
     font-weight: bold;
   }
   
@@ -41,11 +41,12 @@ body {
     color: white;
     font-weight: bold;
     margin-bottom: 5px; /* Adjust the margin to bring it closer to the custom rectangle */
+    font-size: 24px; /* Adjust the font size to make it bigger */
   }
   
   img {
-    max-width: 500px; /* Adjust the maximum width of the image */
-    max-height: 500px; /* Adjust the maximum height of the image */
+    max-width: 300px; /* Adjust the maximum width of the image */
+    max-height: 300px; /* Adjust the maximum height of the image */
     margin-left: 20px; /* Adjust the margin to control the space between text and image */
   }
   
@@ -67,8 +68,6 @@ body {
   .custom-text {
     font-weight: bold;
   }
-  
-  /* Other CSS styles */
   
   button {
     background-color: black;
