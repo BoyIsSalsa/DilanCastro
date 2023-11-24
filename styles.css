@@ -1,0 +1,88 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom, black, #333); /* Black to a slightly lighter shade of black */
+  }
+  
+  .top-bar {
+    background-color: rgba(0, 0, 0, 0.7); /* Black with 70% opacity */
+    text-align: center;
+    color: white;
+    padding: 10px 0; /* Adjust vertical padding */
+    width: 100%;
+  }
+  
+  .info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  p {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  img {
+    max-width: 200px; /* Adjust the maximum width of the image */
+    margin-left: 20px; /* Adjust the margin to control the space between text and image */
+  }
+  
+  button {
+    background-color: black;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    border-color: orange;
+  }
+  
+  .aboutButton {
+    margin-left: 10px; /* Adjust this value to create space between buttons */
+    background-color: black;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .aboutButton:hover {
+    border-color: orange;
+  }
+  
+  .above-rectangle {
+    text-align: center;
+    margin-bottom: 30px; /* Adjust the space between the text and the custom rectangle */
+  }
+  
+  .theater-text {
+    color: white;
+    font-weight: bold;
+  }
+  
+  .bottom-section {
+    margin-top: 50px; /* Adjust the space between the content and the bottom section */
+  }
+  
+  .custom-rectangle {
+    background-color: black;
+    color: white;
+    border-radius: 20px; /* Adjust to make the corners more or less curved */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .custom-text {
+    font-weight: bold;
+  }
